@@ -6,11 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- ICONS GOOGLE -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
   <title>Google Clone</title>
 </head>
 <body>
+  <!-- MAIN CONTENT -->
   <main class="mainContent">
+
+    <!-- SECTION CONTENT -->
     <section class="sectionContent">
+
       <!-- GOOGLE LOGO -->
       <figure class="figureContent">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google_Search_Logo">
@@ -20,39 +26,41 @@
       <div class="inputContent">
         <input class="inputSearch" type="text">
 
-        <!-- ICONS -->          
-        <span >
-          <!-- lupa -->
-          <i class='bx bx-search-alt-2' ></i>
-        </span>
+        <!-- ICONS -->
+        <div class="spanContent">
+          <span class="spanIconContent icon-search">
+            <!-- lupa -->
+            <i class='bx bx-search-alt-2' ></i>
+          </span>
 
-
-        <span>
-          <!-- microfono -->
-          <a href="">
-            <i class='bx bx-microphone' ></i>
-          </a>
-        </span>
-        
-        <span>
-          <!-- camara -->
-          <a href="">
-            <i class='bx bx-camera' ></i>
-          </a>
-        </span>
+          <span class="spanIconContent icon-micro">
+            <!-- microfono -->
+            <a href="">
+              <i class='bx bx-microphone' ></i>
+            </a>
+          </span>
+          
+          <span class="spanIconContent icon-cam">
+            <!-- camara -->
+            <a href="">
+              <i class='bx bx-camera' ></i>
+            </a>
+          </span>
+          
+        </div>
       </div>
       
 
       <!-- BUTTONS -->
       <div class="button-content">
-        <button type="">Google Search</button>
-        <button type="">I'm Feeling Lucky</button>
+        <button class="btn-" type="">Google Search</button>
+        <button class="btn-" type="">I'm Feeling Lucky</button>
       </div>
 
       <!-- PRIVACY INFO -->
       <div class="privacy-info">
         <p>
-          We protectyour privacy.
+          We protect your privacy.
           <a href="">Learn how.</a>
         </p>
       </div>
@@ -61,16 +69,19 @@
   </main>
 
   <!-- FOOTER -->
-  <footer>
-    <div class="footer-content">
+  <footer class="footerContent">
+    <div class="footer-wrapper">
       <!-- país -->
       <p>México</p>
+      
+      <!--  -->
+      <hr>
 
       <!-- conditions -->
       <div class="copy-rights">
 
         <!--  -->
-        <div class="google-about">
+        <div class="google-about rights-">
           <a href="">Sobre Google</a>
           <a href="">Publicidad</a>
           <a href="">Negocios</a>
@@ -78,7 +89,7 @@
         </div>
 
         <!--  -->
-        <div class="google-about">
+        <div class="google-about privacy-">
           <a href="">Privacidad</a>
           <a href="">Condiciones</a>
           <a href="">Preferencias</a>

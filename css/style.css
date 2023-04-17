@@ -29,7 +29,7 @@ button{
 .mainContent{
   /* outline: 1px solid red; */
   margin: 0 auto;
-  height: 90vh;
+  height: 80vh;
   width: 90%;
 }
 /* ----------------------------------------------------------- */
@@ -155,7 +155,7 @@ button{
 /* FOOTER */
 .footerContent{
   /* outline: 1px solid red; */
-  height: 10vh;
+  height: 20vh;
 }
 
 .footer-wrapper{
@@ -175,6 +175,7 @@ button{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 20px;
   /* padding: 0 10px 0 10px; */
   /* margin: 0 5px 0 5px; */
 }
